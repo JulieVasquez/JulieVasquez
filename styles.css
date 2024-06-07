@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-    background: #506449;
+    background: #313330;
     height: 60px;
     width: 100%;
 }
@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #070707;
+    color: #e4dede;
     font-size: 18px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -75,7 +75,7 @@ section.banner {
 }
 
 .btnbanner {
-    background: #475442;
+    background: #8ca284;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -84,7 +84,7 @@ section.banner {
 }
 
 .btnbanner:hover {
-    background: #8ca284;
+    background: #475442;
 }
 
 .contenido {
@@ -132,4 +132,88 @@ h3 {
 
 .boxS p {
     text-align: center;
+}
+
+/* Estilos para la sección Empresa */
+.empresa {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+.empresa-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de tarjeta */
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.empresa h2 {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.empresa-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem; /* Espacio entre el logo y el texto */
+}
+
+.empresa-logo {
+    max-width: 300px;
+    height: auto;
+}
+
+.empresa-text {
+    max-width: 600px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Sección Consejo */
+.consejo-dia {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+
+}
+
+.consejo-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.consejo-dia h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.consejo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem; 
+}
+
+.consejo-img {
+    max-width: 300px;
+    height: auto;
+}
+
+.consejo-text {
+    max-width: 600px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.consejo-text p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #000000;
 }
