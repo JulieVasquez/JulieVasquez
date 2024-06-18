@@ -44,7 +44,7 @@ li a:hover {
 }
 
 section.banner {
-    background-color: #8ca284;
+    background-image: url('https://i.pinimg.com/564x/6a/06/a5/6a06a52639def13ce2eb943ceb90d400.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,6 +52,7 @@ section.banner {
     color: black;
     width: 100%;
 }
+
 
 .containerB {
     width: 90%;
@@ -75,7 +76,7 @@ section.banner {
 }
 
 .btnbanner {
-    background: #8ca284;
+    background: #6c6c6c;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -147,24 +148,12 @@ h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de tarjeta */
     max-width: 80%;
     margin: 0 auto;
-    margin-bottom: 40px;
-}
-
-.contenedores-container {
-    background-color: #ffffff;
-    padding: 2rem;
-    border-radius: 15px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de tarjeta */
-    max-width: 80%;
-    margin: 0 auto;
-    margin-bottom: 40px;
 }
 
 .empresa h2 {
     font-family: 'Kanit', sans-serif;
     text-align: center;
     margin-bottom: 2rem;
-    flex-wrap: wrap;
 }
 
 .empresa-content {
@@ -174,36 +163,14 @@ h3 {
     gap: 3rem; /* Espacio entre el logo y el texto */
 }
 
-.contenedores-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem; /* Espacio entre el logo y el texto */
-}
-
 .empresa-logo {
-    max-width: 290px;
+    max-width: 200px;
     height: auto;
-}
-
-.contenedores-logo {
-    max-width: 290px;
-    height: auto;
-    justify-content: center;
 }
 
 .empresa-text {
     max-width: 600px;
     font-family: "Montserrat", sans-serif;
-    margin-top: 20px;
-    justify-content: center;
-}
-
-.contenedores-text {
-    max-width: 600px;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 20px;
-    justify-content: center;
 }
 
 /* Sección Consejo */
