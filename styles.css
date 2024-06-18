@@ -44,7 +44,7 @@ li a:hover {
 }
 
 section.banner {
-    background-color: #8ca284;
+    background-image: url(imagenes/fondo6.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@ section.banner {
 }
 
 .btnbanner:hover {
-    background: #475442;
+    background: black;
 }
 
 .contenido {
