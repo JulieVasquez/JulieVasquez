@@ -147,29 +147,63 @@ h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de tarjeta */
     max-width: 80%;
     margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.contenedores-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto de tarjeta */
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .empresa h2 {
     font-family: 'Kanit', sans-serif;
     text-align: center;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 
 .empresa-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem; /* Espacio entre el logo y el texto */
+    gap: 3rem; /* Espacio entre el logo y el texto */
+}
+
+.contenedores-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem; /* Espacio entre el logo y el texto */
 }
 
 .empresa-logo {
-    max-width: 300px;
+    max-width: 290px;
     height: auto;
+}
+
+.contenedores-logo {
+    max-width: 290px;
+    height: auto;
+    justify-content: center;
 }
 
 .empresa-text {
     max-width: 600px;
     font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.contenedores-text {
+    max-width: 600px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    justify-content: center;
 }
 
 /* Sección Consejo */
