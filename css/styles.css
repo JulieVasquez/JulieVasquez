@@ -13,10 +13,11 @@ header {
 }
 
 nav {
-    background: #313330;
+    background-color: #3c3b3b;
     height: 60px;
     width: 100%;
 }
+
 
 nav ul {
     float: right;
@@ -39,7 +40,7 @@ nav ul li a {
 }
 
 li a:hover {
-    background: #475442;
+    background: rgba(88, 89, 88, 0.5);
     transition: .5s;
 }
 
@@ -75,7 +76,7 @@ section.banner {
 }
 
 .btnbanner {
-    background: #8ca284;
+    background-color: rgba(88, 89, 88, 0.5); /* Fondo transparente */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -84,7 +85,7 @@ section.banner {
 }
 
 .btnbanner:hover {
-    background: black;
+    background-color: rgba(88, 89, 88, 0.8); /* Cambio de color de fondo al hacer hover */
 }
 
 .contenido {
