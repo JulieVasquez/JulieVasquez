@@ -414,3 +414,120 @@ h3 {
     margin: 0 auto;
 }
 
+.ia-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.ia-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+.ia-form label {
+    font-family: 'Montserrat', sans-serif;
+    color: #4c4c4c;
+}
+
+.ia-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.ia-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ia-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#respuesta-ia {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+.formulario-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.formulario-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Kanit', sans-serif;
+    color: #4c4c4c;
+}
+
+.formulario-container form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.formulario-container label {
+    font-family: 'Montserrat', sans-serif;
+    color: #4c4c4c;
+}
+
+.formulario-container input[type="text"],
+.formulario-container input[type="email"],
+.formulario-container input[type="tel"],
+.formulario-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.formulario-container textarea {
+    resize: vertical;
+}
+
+.formulario-container button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-container button[type="submit"]:hover {
+    background-color: #45a049;
+}
