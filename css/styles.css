@@ -1,3 +1,4 @@
+/* General reset */
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +19,6 @@ nav {
     width: 100%;
 }
 
-
 nav ul {
     float: right;
     margin-right: 20px;
@@ -28,7 +28,6 @@ nav ul li {
     display: inline-block;
     line-height: 60px;
     margin: 0 5px;
-    
 }
 
 nav ul li a {
@@ -63,11 +62,10 @@ section.banner {
 }
 
 .boxB.col1 h1 {
-    font-size: 4.5em ;
+    font-size: 4.5em;
     margin-bottom: 20px;
     color: #ffffff;
-    line-height: 1; 
-
+    line-height: 1;
 }
 
 .banner h1,
@@ -89,13 +87,13 @@ section.banner {
 }
 
 .contenido {
-    text-align: center; 
-    padding: 2rem; 
-    color: #4c4c4c; 
-    background-color: #fff; 
-    border-radius: 8px; 
-    margin: 4rem auto; 
-    width: 80%; 
+    text-align: center;
+    padding: 2rem;
+    color: #4c4c4c;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 4rem auto;
+    width: 80%;
 }
 
 /*Sección Servicios*/
@@ -107,8 +105,6 @@ section.banner {
     width: 90%;
     margin: 0 auto;
 }
-
-
 
 .boxS {
     padding: 2rem 2rem;
@@ -151,8 +147,6 @@ h3 {
     margin-bottom: 40px;
 }
 
-
-
 .empresa h2 {
     font-family: 'Kanit', sans-serif;
     text-align: center;
@@ -167,13 +161,10 @@ h3 {
     gap: 3rem; /* Espacio entre el logo y el texto */
 }
 
-
 .empresa-logo {
     max-width: 290px;
     height: auto;
 }
-
-
 
 .empresa-text {
     max-width: 600px;
@@ -182,13 +173,10 @@ h3 {
     justify-content: center;
 }
 
-
-
 /* Sección Consejo */
 .consejo-dia {
     padding: 4rem 0;
     background-color: #f9f9f9;
-
 }
 
 .consejo-container {
@@ -204,14 +192,13 @@ h3 {
     text-align: center;
     margin-bottom: 2rem;
     font-family: 'Kanit';
-
 }
 
 .consejo-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem; 
+    gap: 2rem;
 }
 
 .consejo-img {
@@ -230,10 +217,8 @@ h3 {
     color: #000000;
 }
 
-
 .eventos-container {
     font-family: 'Kanit', sans-serif;
-
     max-width: 90%;
     margin: 0 auto;
     text-align: center;
@@ -269,7 +254,6 @@ h3 {
     transform: scale(1.05); /* Efecto de escala al hacer hover */
 }
 
-
 /* Estilos para la sección 'Comunícate con Nosotros' */
 .comunicate {
     padding: 2rem 2rem;
@@ -281,7 +265,6 @@ h3 {
     text-align: center;
     margin-bottom: 2rem;
     font-family: 'Kanit';
-
 }
 
 .comunicate-container {
@@ -342,12 +325,11 @@ h3 {
     margin: 0 auto;
 }
 
-.reciclar-container h2{
+.reciclar-container h2 {
     text-align: center;
     margin-bottom: 2rem;
     font-family: 'Kanit';
 }
-
 
 .reciclar img {
     max-width: 100%;
@@ -381,77 +363,64 @@ h3 {
     font-family: 'Kanit';
 }
 
-
-.residuos img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
-
 .residuos-text {
     font-family: "Montserrat", sans-serif;
     max-width: 600px;
+    margin: 20px auto;
     text-align: left;
-    margin: 0 auto;
+}
+
+.residuos-text p {
+    margin-bottom: 10px;
 }
 
 /* Estilos para la sección 'IA' */
-.ia {
-    padding: 4rem 0;
+.ia-container {
+    padding: 2rem;
     text-align: center;
+    background-color: #f9f9f9;
 }
 
-.ia-container {
-    max-width: 80%;
-    margin: 0 auto;
+.ia-container h2 {
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 1.5rem;
 }
 
 .ia-text {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     max-width: 600px;
     margin: 0 auto;
+    margin-bottom: 1.5rem;
 }
 
 .ia-form {
-    background-color: #ffffff;
-    padding: 2rem;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 80%;
-    margin: 0 auto;
-}
-
-.ia-form form {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .ia-form label {
-    font-family: 'Montserrat', sans-serif;
-    color: #4c4c4c;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .ia-form input[type="text"] {
-    width: 100%;
-    padding: 10px;
+    width: 300px;
+    padding: 0.5rem;
+    font-size: 1rem;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
 }
 
 .ia-form button[type="submit"] {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
     background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -461,73 +430,107 @@ h3 {
 }
 
 #respuesta-ia {
-    margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
-    text-align: left;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    margin-top: 1.5rem;
+    font-size: 1rem;
 }
 
-
-
+/* Estilos para la sección 'Formulario de contacto' */
 .formulario-container {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #ffffff;
     padding: 2rem;
-    border-radius: 15px;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 80%;
+    max-width: 600px; /* Limitar el ancho del formulario */
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .formulario-container h2 {
-    text-align: center;
-    margin-bottom: 2rem;
     font-family: 'Kanit', sans-serif;
-    color: #4c4c4c;
-}
-
-.formulario-container form {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .formulario-container label {
-    font-family: 'Montserrat', sans-serif;
-    color: #4c4c4c;
+    margin-bottom: 0.5rem;
 }
 
 .formulario-container input[type="text"],
 .formulario-container input[type="email"],
 .formulario-container input[type="tel"],
 .formulario-container textarea {
-    width: 100%;
-    padding: 10px;
+    width: 100%; /* Ajustar al 100% del contenedor */
+    padding: 0.75rem;
+    margin-bottom: 1rem;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-.formulario-container textarea {
-    resize: vertical;
+    border-radius: 4px;
+    font-size: 1rem;
 }
 
 .formulario-container button[type="submit"] {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
     background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .formulario-container button[type="submit"]:hover {
     background-color: #45a049;
+}
+
+/* Estilos de footer */
+footer {
+    background-color: #3c3b3b;
+    color: #e4dede;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+    .empresa-content, .consejo-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .empresa-logo, .consejo-img {
+        max-width: 100%;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #555;
+        border-bottom: 1px solid #555;
+    }
+
+    nav ul li a {
+        width: 100%;
+        display: block;
+        padding: 10px 0;
+    }
 }
