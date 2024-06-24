@@ -1,10 +1,10 @@
-/* General reset */
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    
 }
 
 header {
@@ -19,6 +19,7 @@ nav {
     width: 100%;
 }
 
+
 nav ul {
     float: right;
     margin-right: 20px;
@@ -28,14 +29,17 @@ nav ul li {
     display: inline-block;
     line-height: 60px;
     margin: 0 5px;
+    
 }
 
 nav ul li a {
     color: #e4dede;
-    font-size: 18px;
+    font-size: 15px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 li a:hover {
@@ -62,10 +66,11 @@ section.banner {
 }
 
 .boxB.col1 h1 {
-    font-size: 4.5em;
+    font-size: 4.5em ;
     margin-bottom: 20px;
     color: #ffffff;
-    line-height: 1;
+    line-height: 1; 
+
 }
 
 .banner h1,
@@ -86,24 +91,29 @@ section.banner {
     background-color: rgba(88, 89, 88, 0.8); /* Cambio de color de fondo al hacer hover */
 }
 
+
+/* Sección Contenido */
 .contenido {
-    text-align: center;
-    padding: 2rem;
-    color: #4c4c4c;
-    background-color: #fff;
-    border-radius: 8px;
-    margin: 4rem auto;
-    width: 80%;
+    text-align: center; 
+    padding: 2rem; 
+    color: #4c4c4c; 
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    margin: 4rem auto; 
+    width: 80%; 
+    font-family: 'Montserrat', sans-serif;
 }
 
-/*Sección Servicios*/
+/* Sección Servicios */
 .servicios {
-    padding: 3rem 0;
+    padding: 2rem 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     grid-gap: 2rem;
     width: 90%;
     margin: 0 auto;
+    background-color: #f9f9f9; /* Cambiar el color de fondo aquí */
+    border-radius: 8px; /* Agregar borde redondeado para la sección */
 }
 
 .boxS {
@@ -119,7 +129,10 @@ section.banner {
 }
 
 .boxS img {
-    width: 250px;
+    width: 100%;
+    max-width: 250px; /* Ajustar el tamaño máximo de las imágenes */
+    height: auto;
+    border-radius: 8px; /* Agregar borde redondeado a las imágenes */
 }
 
 h3 {
@@ -133,7 +146,7 @@ h3 {
 
 /* Estilos para la sección Empresa */
 .empresa {
-    padding: 4rem 0;
+    padding: 2rem 2rem;
     background-color: #f9f9f9;
 }
 
@@ -146,6 +159,8 @@ h3 {
     margin: 0 auto;
     margin-bottom: 40px;
 }
+
+
 
 .empresa h2 {
     font-family: 'Kanit', sans-serif;
@@ -161,10 +176,13 @@ h3 {
     gap: 3rem; /* Espacio entre el logo y el texto */
 }
 
+
 .empresa-logo {
     max-width: 290px;
     height: auto;
 }
+
+
 
 .empresa-text {
     max-width: 600px;
@@ -173,10 +191,17 @@ h3 {
     justify-content: center;
 }
 
+.empresa-text p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #000000;
+}
+
 /* Sección Consejo */
 .consejo-dia {
-    padding: 4rem 0;
+    padding: 2rem 2rem;
     background-color: #f9f9f9;
+
 }
 
 .consejo-container {
@@ -192,13 +217,14 @@ h3 {
     text-align: center;
     margin-bottom: 2rem;
     font-family: 'Kanit';
+
 }
 
 .consejo-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 2rem; 
 }
 
 .consejo-img {
@@ -217,11 +243,30 @@ h3 {
     color: #000000;
 }
 
-.eventos-container {
-    font-family: 'Kanit', sans-serif;
-    max-width: 90%;
-    margin: 0 auto;
+/* Estilos para la sección 'Eventos' */
+
+.eventos {
+    padding: 2rem 2rem;
+    background-color: #f9f9f9;
     text-align: center;
+}
+
+
+.eventos-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    margin: 0 auto;
+
+
+}
+
+.eventos-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Kanit';
 }
 
 .eventos-text {
@@ -254,6 +299,7 @@ h3 {
     transform: scale(1.05); /* Efecto de escala al hacer hover */
 }
 
+
 /* Estilos para la sección 'Comunícate con Nosotros' */
 .comunicate {
     padding: 2rem 2rem;
@@ -265,11 +311,18 @@ h3 {
     text-align: center;
     margin-bottom: 2rem;
     font-family: 'Kanit';
+
 }
 
 .comunicate-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 80%;
     margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+
 }
 
 .tierra-img {
@@ -279,21 +332,30 @@ h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.tierra-text {
+.comunicate-text {
+    padding: 2rem;
     font-family: "Montserrat", sans-serif;
     text-align: center;
     margin-top: 20px;
+    justify-content: center;
+
 }
 
 /* Estilos para la sección 'Preguntas Frecuentes' */
 .preguntas {
-    padding: 4rem 0;
+    background-color: #f9f9f9;
+    padding: 2rem 2rem;
     text-align: center;
 }
 
 .preguntas-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 80%;
     margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
 }
 
 .preguntas-container h2 {
@@ -314,223 +376,224 @@ h3 {
 }
 
 /* Estilos para la sección 'Beneficios del Reciclaje' */
+
 .reciclar {
-    padding: 4rem 0;
     background-color: #f9f9f9;
+    padding: 2rem 2rem;
     text-align: center;
 }
 
+
 .reciclar-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 80%;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 .reciclar-container h2 {
-    text-align: center;
-    margin-bottom: 2rem;
     font-family: 'Kanit';
+    text-align: center;
+    margin-bottom: 3.5rem;
+    justify-content: center;
+
+
 }
 
-.reciclar img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+.reciclar-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .reciclar-text {
     font-family: "Montserrat", sans-serif;
-    max-width: 600px;
-    text-align: left;
-    margin: 0 auto;
+    padding: auto;
+    flex: 1;
+    padding-right: 20px;
+
 }
+
+.reciclar-text p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #000000;
+    justify-content: center;
+
+}
+
+.reciclar-img {
+    flex: 1;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.reciclar-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 
 /* Estilos para la sección 'Cómo Separar los Residuos' */
 .residuos {
-    padding: 4rem 0;
+    background-color: #f9f9f9;
+    padding: 2rem 2rem;
     text-align: center;
 }
 
 .residuos-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    margin: 2rem auto;
+}
+
+
+.residuos-container h2 {
+    font-family: 'Kanit';
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.residuos-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+.residuos-text {
+    font-family: "Montserrat", sans-serif;
+    padding: auto;
+    flex: 1;
+    padding-right: 20px;
+}
+
+.residuos-text p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.residuos img {
+    flex: 1;
+    padding-left: 20px;
+    text-align: center;
+    max-height: 350px;
+}
+
+
+
+
+
+#frase {
+    text-align: center;
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#frase h2 {
+    color: #9dab9d; 
+    font-family: 'Kanit', sans-serif; 
+    margin-bottom: 15px;
+}
+
+#frase p {
+    color: #555; 
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+}
+
+#copyrig {
+        text-align: center;
+        background-color:#f9f9f9;
+        padding: 20px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
+.formulario-contacto {
+    background-color: #f9f9f9;
+    padding: 2rem 2rem;
+    text-align: left;
+}
+
+.formulario-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 80%;
     margin: 0 auto;
 }
 
-.residuos-container h2 {
+.formulario-container h2 {
     text-align: center;
     margin-bottom: 2rem;
-    font-family: 'Kanit';
-}
-
-.residuos-text {
-    font-family: "Montserrat", sans-serif;
-    max-width: 600px;
-    margin: 20px auto;
-    text-align: left;
-}
-
-.residuos-text p {
-    margin-bottom: 10px;
-}
-
-/* Estilos para la sección 'IA' */
-.ia-container {
-    padding: 2rem;
-    text-align: center;
-    background-color: #f9f9f9;
-}
-
-.ia-container h2 {
     font-family: 'Kanit', sans-serif;
-    margin-bottom: 1.5rem;
+    color: #4c4c4c;
 }
 
-.ia-text {
-    font-family: 'Montserrat', sans-serif;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-bottom: 1.5rem;
-}
-
-.ia-form {
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.ia-form label {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-.ia-form input[type="text"] {
-    width: 300px;
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-}
-
-.ia-form button[type="submit"] {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.ia-form button[type="submit"]:hover {
-    background-color: #45a049;
-}
-
-#respuesta-ia {
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 1.5rem;
-    font-size: 1rem;
-}
-
-/* Estilos para la sección 'Formulario de contacto' */
-.formulario-container {
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px; /* Limitar el ancho del formulario */
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-.formulario-container h2 {
-    font-family: 'Kanit', sans-serif;
-    margin-bottom: 1.5rem;
+.formulario-container form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
 }
 
 .formulario-container label {
-    margin-bottom: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #4c4c4c;
 }
 
 .formulario-container input[type="text"],
 .formulario-container input[type="email"],
 .formulario-container input[type="tel"],
 .formulario-container textarea {
-    width: 100%; /* Ajustar al 100% del contenedor */
-    padding: 0.75rem;
-    margin-bottom: 1rem;
+    width: 100%;
+    padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.formulario-container textarea {
+    resize: vertical;
 }
 
 .formulario-container button[type="submit"] {
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #4CAF50;
+    background-color: #f2f2f2;
+    color: black;
+    padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .formulario-container button[type="submit"]:hover {
-    background-color: #45a049;
-}
-
-/* Estilos de footer */
-footer {
-    background-color: #3c3b3b;
-    color: #e4dede;
-    text-align: center;
-    padding: 1rem 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.9rem;
-}
-
-@media screen and (max-width: 768px) {
-    .empresa-content, .consejo-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .empresa-logo, .consejo-img {
-        max-width: 100%;
-    }
-
-    nav ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    nav ul li {
-        width: 100%;
-        text-align: center;
-        border-top: 1px solid #555;
-        border-bottom: 1px solid #555;
-    }
-
-    nav ul li a {
-        width: 100%;
-        display: block;
-        padding: 10px 0;
-    }
+    background-color: rgba(191, 193, 191, 0.8); /* Cambio de color de fondo al hacer hover */
 }
