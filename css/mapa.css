@@ -1,0 +1,102 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #f9f9f9;
+    color: #7c7c7c;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: "Kanit", sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-family: "Kanit", sans-serif;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en dispositivos pequeños */
+}
+
+.eventos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.evento {
+    max-width: 20rem;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.evento-img {
+    width: 100%;
+    height: 15rem;
+    display: block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.evento-info {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
+}
+
+.evento-info h3 {
+    margin-top: 0;
+}
+
+.evento-info p {
+    margin: 5px 0;
+}
+
+.evento-info img {
+    width: 20px; /* Tamaño del icono de ubicación */
+    vertical-align: middle;
+    margin-left: 5px; /* Espacio entre el texto y el icono */
+}
+
+.map-container {
+    flex: 100%; /* Asegura que el mapa ocupe toda la anchura disponible */
+    max-width: 100%; /* Ajuste máximo para dispositivos pequeños */
+    margin-top: 20px; /* Espacio entre las tarjetas de evento y el mapa */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.map-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    background-color: #f9f9f9;
+    color: #a69c9c;
+    text-align: center;
+    padding: 1rem 0;
+    bottom: 0;
+    width: 100%;
+}
+

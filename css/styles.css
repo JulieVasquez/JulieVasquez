@@ -97,7 +97,7 @@ section.banner {
     text-align: center; 
     padding: 2rem; 
     color: #4c4c4c; 
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     border-radius: 8px; 
     margin: 4rem auto; 
     width: 80%; 
@@ -112,7 +112,7 @@ section.banner {
     grid-gap: 2rem;
     width: 90%;
     margin: 0 auto;
-    background-color: #f9f9f9; /* Cambiar el color de fondo aquí */
+    background-color: #ffffff; /* Cambiar el color de fondo aquí */
     border-radius: 8px; /* Agregar borde redondeado para la sección */
 }
 
@@ -546,6 +546,10 @@ h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 80%;
     margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2.5;
+
+
 }
 
 .formulario-container h2 {
@@ -559,6 +563,8 @@ h3 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+
+
 }
 
 .formulario-container label {
